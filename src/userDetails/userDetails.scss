@@ -1,36 +1,4 @@
-.users-main-container {
-  padding-top: 5rem;
-
-  .users-list {
-    .main-title {
-      font-size: 20px;
-      margin-bottom: 1rem;
-    }
-
-    .user-info {
-      margin-top: 2rem;
-
-      img {
-        margin-right: 1rem;
-        border-radius: 25px;
-      }
-
-      .user-name {
-        vertical-align: top;
-        font-size: 14px;
-      }
-    }
-  }
-
-  .subtitle-description {
-    margin-bottom: 2rem;
-  }
-
-  .subtitle {
-    font-size: 14px;
-    color: gray;
-  }
-
+.user-details {
   .image-container {
     display: flex;
     align-items: center;
@@ -65,5 +33,14 @@
         }
       }
     }
+  }
+
+  .subtitle-description {
+    margin-bottom: 2rem;
+  }
+
+  .subtitle-detail {
+    font-size: 14px;
+    color: gray;
   }
 }

@@ -1,6 +1,6 @@
-import React from 'react';
-import UsersList from './usersList';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import React from "react";
+import UsersList from "./usersList/index";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 export default () => (
   <div className="App">
