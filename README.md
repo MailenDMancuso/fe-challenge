@@ -1,4 +1,4 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project belongs to Athena Work's challenge for Front-end side.
 
 Make sure of installing every dependency after cloning the repo, by running command:
 

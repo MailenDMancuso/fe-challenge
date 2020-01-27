@@ -100,6 +100,5 @@ const UsersList = () => {
     </Container>
   );
 };
-// }
 
 export default UsersList;
