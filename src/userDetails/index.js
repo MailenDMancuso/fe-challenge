@@ -1,7 +1,8 @@
 import React from "react";
+import PropTypes from "prop-types";
 import "./userDetails.scss";
 
-export default ({ user }) => (
+const userDetails = ({ user }) => (
   <div className="user-details">
     <div className="image-container">
       <img
@@ -38,3 +39,16 @@ export default ({ user }) => (
     </div>
   </div>
 );
+
+userDetails.propTypes = {
+  user: PropTypes.shape({
+    name: PropTypes.object,
+    picture: PropTypes.object,
+    gender: PropTypes.string,
+    email: PropTypes.string,
+    phone: PropTypes.string,
+    cell: PropTypes.string
+  })
+};
+
+export default userDetails;
