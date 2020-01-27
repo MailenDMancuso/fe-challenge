@@ -9,6 +9,9 @@ const UsersList = () => {
     getUsers("https://randomuser.me/api/?results=20&");
   }, []);
 
+  const [users, setUsers] = useState([]);
+  const [selectedUser, setSelectedUser] = useState(null);
+
   const getUsers = async apiUrl => {
     const response = await fetch(apiUrl, {
       method: "GET",
@@ -43,9 +46,6 @@ const UsersList = () => {
       getUsers(apiUrl);
     }
   };
-
-  const [users, setUsers] = useState([]);
-  const [selectedUser, setSelectedUser] = useState(null);
 
   return (
     <Container className="users-main-container">
